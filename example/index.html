@@ -1,0 +1,5 @@
+<span id='time'>00:00:00</span>
+<script>
+    var d;
+    setInterval(function() {d = new Date(); document.getElementById('time').innerText = d.toLocaleTimeString()}, 1000);
+</script>
